@@ -1,0 +1,12 @@
+---
+# Top level account config
+account_id: "000000000000"
+account_name: "localstack"
+default_region: "us-west-2"
+environment: "prod"
+repo_path: "localstack"
+
+tags:
+  environment: "test"
+  team: "test"
+  provisioner: "terragrunt"
